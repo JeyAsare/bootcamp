@@ -1,5 +1,5 @@
 * {
-    font-family:'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     margin: 0;
     padding: 0;
 
@@ -9,7 +9,7 @@ body {
     background: rgb(34, 15, 1);
 }
 
-.game-title{
+.game-title {
     background: rgb(20, 209, 20);
     width: 90%;
     max-width: 700px;
@@ -26,7 +26,7 @@ body {
 }
 
 div h1 {
-    color:rgb(34, 15, 1);
+    color: rgb(34, 15, 1);
     font-size: 110px;
     font-weight: 900;
     text-decoration: overline underline;
@@ -46,16 +46,16 @@ div h1 {
 }
 
 .colonel-img {
-    width:150px;
+    width: 150px;
     height: 150px;
     border: 2px solid black;
     border-radius: 40px;
-    margin:auto;
+    margin: auto;
     display: block;
     margin-bottom: 25px;
 }
 
-.game-body{
+.game-body {
     background: rgb(20, 209, 20);
     width: 90%;
     max-width: 750px;
@@ -66,6 +66,7 @@ div h1 {
     border-radius: 10px;
     padding: 30px;
 }
+
 .intro-text {
     text-align: center;
     color: rgb(65, 59, 59);
@@ -75,7 +76,7 @@ div h1 {
 
 .intro-btn {
     margin-top: 50px;
-} 
+}
 
 
 #start-btn {
@@ -90,7 +91,7 @@ div h1 {
     border-radius: 8px;
     cursor: pointer;
     display: block;
-    
+
 }
 
 #start-btn:hover {
@@ -98,12 +99,12 @@ div h1 {
     color: blanchedalmond;
 }
 
-.brief-mesg{
+.brief-mesg {
     border: 5px solid rgb(34, 15, 1);
     border-radius: 10px;
 }
 
-.lvl-intro-text{
+.lvl-intro-text {
     padding: 10px;
     text-align: center;
     color: rgb(65, 59, 59);
@@ -111,19 +112,19 @@ div h1 {
     background: blanchedalmond;
 }
 
-.gameplay{
+.gameplay {
     display: none;
 }
 
-.gameplay.active{
+.gameplay.active {
     display: block;
-} 
+}
 
-#difficulty-lvls{
+#difficulty-lvls {
     margin-top: 50px;
 }
 
-.difficulty-lvl-Btn{
+.difficulty-lvl-Btn {
     max-width: 750px;
     width: 90%;
     padding: 20px;
@@ -137,115 +138,7 @@ div h1 {
     border: 5px solid black;
     border-radius: 8px;
 }
-/*
-.difficulty-lvl-Btn.highlight:hover{
-    background: rgb(222, 114, 19);
-    color:blanchedalmond;
-    border: 5px solid blanchedalmond;
-} */
 
 .difficulty-lvl-Btn[disabled] {
     cursor: not-allowed;
 }
-
-#questions{
-    text-align: center;
-    
-}
-
-.question{
-    font-size: 30px;
-    font-weight: 600;
-}
-
-.answer-btns {
-    max-width: 750px;
-    width: 90%;
-    padding: 15px;
-    margin: 32px auto;
-    background-color: blanchedalmond;
-    color: rgb(65, 59, 59);
-    font-weight: 600;
-    font-size: 18px;
-    cursor: pointer;
-    display: block;
-    border: 5px solid black;
-    border-radius: 8px;
-    text-align: left;
-}
-
-.answer-btns.active {
-    background: rgb(230, 170, 6);
-    color :blanchedalmond;
-    border: 5px solid blanchedalmond;
-}
-
-.answer-btns.wrong {
-    color: blanchedalmond;
-    background: red;
-    border: 5px solid blanchedalmond;
-
-}
-
-.next-btn-container{
-    margin-top: 30px;
-    text-align: center;
-} 
-
-.next-btn{
-    font-size: 25px;
-    background: rgb(103, 85, 85);
-    color: black;
-    font-weight: 300;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    min-width: 200px;
-    display: none;
-}
-
-.next-btn.active{
-    display: inline;
-} 
-
-.next-btn:hover{
-    background: black;
-    color: blanchedalmond;
-}
-
-.final-mesg{
-    border: 5px solid rgb(34, 15, 1);
-    border-radius: 10px;
-    background: blanchedalmond;
-    text-align: center;
-
-}
-
-#end-score{
-    margin: 15px auto;
-    font-size: 22px;
-}
-
-#end-review{
-    margin-bottom: 15px;
-    font-size: 22px;
-}
-
-.final-btn-container{
-    margin-top: 30px;
-    text-align: center;
-}
-
-.playagain-nextlevel{
-    font-size: 25px;
-    background: rgb(103, 85, 85);
-    color: black;
-    font-weight: 300;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    min-width: 200px;
-}
-
