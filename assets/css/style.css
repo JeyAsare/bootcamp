@@ -202,3 +202,38 @@ div h1 {
   background: black;
   color: blanchedalmond;
 }
+
+.final-mesg {
+    border: 5px solid rgb(34, 15, 1);
+    border-radius: 10px;
+    background: blanchedalmond;
+    text-align: center;
+
+}
+
+#end-score {
+    margin: 15px auto;
+    font-size: 22px;
+}
+
+#end-review {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.final-btn-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.playagain-nextlevel {
+    font-size: 25px;
+    background: rgb(103, 85, 85);
+    color: black;
+    font-weight: 300;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    min-width: 200px;
+}
