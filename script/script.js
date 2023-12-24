@@ -681,15 +681,10 @@ function setDifficultyLevel() {
         let difficultyLevel = bootcampQuiz.difficultyLevels[i];
 
         if (difficultyLevel.allowed === true) {
-            difView =
-                difView +
-                `<button onclick="showQuestion(0, '${difficultyLevel.difficultyName}')" class = "difficulty-lvl-Btn">${difficultyLevel.difficultyName}</button>`;
-            document.getElementById("intro-lvl-mesg").innerHTML =
-                difficultyLevel.introMessage;
+            difView = difView + `<button onclick = "showQuestion(0, '${difficultyLevel.difficultyName}')" class = "difficulty-lvl-Btn">${difficultyLevel.difficultyName}</button>`;
+            document.getElementById("intro-lvl-mesg").innerHTML = difficultyLevel.introMessage;
         } else {
-            difView =
-                difView +
-                `<button class = "difficulty-lvl-Btn" disabled>${difficultyLevel.difficultyName}</button>`;
+            difView = difView + `<button class = "difficulty-lvl-Btn" disabled>${difficultyLevel.difficultyName}</button>`;
         }
     }
     document.getElementById("difficulty-lvls").innerHTML = difView;
@@ -714,11 +709,9 @@ function showQuestion(questionIndex, difficultyLevelName) {
         let answer = question.answers[i];
         answerView += `<button onclick="selectAnswer(${questionIndex}, '${difficultyLevelName}', ${i})" class="answer-btns">${answer.text}</button>`;
     }
-    let view = `
-		<h2 class="question">${question.text}</h2>
+    let view = `<h2 class="question">${question.text}</h2>
 		<div id="answers"> ${answerView} </div>
-                </div>
-	`;
+                </div>`;
 
     document.getElementById("questions").innerHTML = view;
 

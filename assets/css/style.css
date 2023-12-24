@@ -125,18 +125,26 @@ div h1 {
   width: 90%;
   padding: 20px;
   margin: 25px auto;
-  background-color: rgb(3, 42, 15);
-  color: rgb(65, 59, 59);
+  background-color: rgb(6, 72, 26);
+  color: blanchedalmond;
   font-weight: 600;
   font-size: 25px;
   cursor: pointer;
   display: block;
-  border: 5px solid black;
+  border: 5px solid blanchedalmond;
   border-radius: 8px;
+}
+
+.difficulty-lvl-Btn:hover {
+    color: gold;
+    border: 5px solid gold;
 }
 
 .difficulty-lvl-Btn[disabled] {
   cursor: not-allowed;
+  background: black;
+  color: rgb(65, 59, 59);
+  border: 5px solid rgb(65, 59, 59);
 }
 
 #questions {
@@ -236,4 +244,9 @@ div h1 {
     border-radius: 8px;
     cursor: pointer;
     min-width: 200px;
+}
+
+.playagain-nextlevel:hover {
+    background: black;
+    color: blanchedalmond;
 }
