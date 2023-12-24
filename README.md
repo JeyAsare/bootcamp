@@ -123,6 +123,17 @@ The othe colours used are there to add extra appeal to the user as I wanted to s
 
 ## Deployment
 
+Github Pages was used to deploy the live website:
+
+1. Log in to Github.
+2. Find the repository for this project.
+3. Click on the settings link.
+4. Click on the Pages link in the left hand side of the navigation bar.
+5. In the source section, choose main from the drop down select branch menu.
+6. Select Root from the drop donn selct folder menu.
+7. Click Save.
+8. Your live Github Pages site has now been deployed.
+   
 # Testing
 
 ## Manual Testing
