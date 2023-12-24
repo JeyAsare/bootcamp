@@ -1,6 +1,6 @@
 # BOOTCAMP
 
-#### For my Milestone 2 Project I have created an interactuve quiz game using HTMl, CSS and Javascript. 
+#### For my Milestone 2 Project I have created an interactuve quiz game using HTMl, CSS and Javascript
 
 ## User Experience
 
@@ -32,31 +32,34 @@ To create a simple yet effective game, I decided that only one main HTML page wa
 
 I then split my HTML into four different sections that the user will see as they progressed into the game:
 
-#### Page-1
+#### 1
 
 - This is the start of the game where the user receives an introuctory message from the colonel of the game and also a start button which takes the user onto the next page.
 
-#### Page-2
+#### 2
 
 - This section is the difficulty section where the user clicks on the specified difficulty to start the quix.
 
-#### Page-3
+#### 3
 
 - This section is the quiz section where the user will be tested on their general knowledge. There are 10 questions in total.
 
-#### Page-4
+#### 4
 
 - This section shows the user their score. If the user gets above a certain threshold then they pass and move onto the next level however if the user fails they will be redirected to restart the questions again at the same difficulty.
 
 ## Wireframes
 
-### I used Balsamiq Wireframes to create the basic structure of my game.
+### I used Balsamiq Wireframes to create the basic structure of my game
 
 Desktop Version:
+<img src="assets/readme_files/desktop-view.png" alt="wireframe desktop view">
 
 IPAD Version:
+<img src="assets/readme_files/ipad-view.png" alt="wireframe ipad view">
 
 Mobile Versrion:
+<img src="assets/readme_files/mobile-view.png" alt="wireframe mobile view">
 
 ## Design
 
@@ -76,22 +79,23 @@ I primarily and only used Bebas Neue as my font-family in the game meaning all t
 - gold
 - red
 
-Whilst planning this game I wanted my colour theme to essentially revolve around the colours (brown, green, grey, black) to set the scene of an actual military bootcamp. I used the bright green as I believed it to be a very good contrast compared to the nature of the over dark colours.
+Whilst planning this game I wanted my colour theme to essentially revolve around the colours brown, green, grey and black to set the scene of an actual military bootcamp. I used the bright green as I believed it to be a very good contrast compared to the nature of the over dark colours.
 The othe colours used are there to add extra appeal to the user as I wanted to still give the user the gaming experience.
 
-## Game Features 
+## Game Features
 
-* Page 1
-
-* Page 2
-
-* Page 3
-
-* Page 4
+- Page 1
+<img src="assets/readme_files/section1.png" alt="view of first section of site">
+- Page 2
+<img src="assets/readme_files/section2.png" alt="view of second section of site">
+- Page 3
+  <img src="assets/readme_files/section3.png" alt="view of third section of site">
+- Page 4
+  <img src="assets/readme_files/section4.png" alt="view of fourth section of site">
 
 ## Future Implementations
 
-#### The game is originally a demo created for my milestone project but in the near future I would like to implement more aspects to make BOOTCAMP a full game for users I would do this by:
+#### The game is originally a demo created for my milestone project but in the near future I would like to implement more aspects to make BOOTCAMP a full game for users I would do this by
 
 - Increasing the number of difficulties in the game as currently I only have 3.
 - Whilst developing the project I thought to implement a quit game option which would take users to that start of the game instead of them having to constantly refresh the game.
@@ -109,13 +113,13 @@ The othe colours used are there to add extra appeal to the user as I wanted to s
 
 ### Framework, Libraries and Programs Used
 
-* Balsamiq Wireframes.
-* Github.
-* Codeanywhere.
-* Font Awesome.
-* Google Fonts.
-* JS Hint.
-* W3C Markup Validation.
+- Balsamiq Wireframes.
+- Github.
+- Codeanywhere.
+- Font Awesome.
+- Google Fonts.
+- JS Hint.
+- W3C Markup Validation.
 
 ## Deployment
 
@@ -123,9 +127,27 @@ The othe colours used are there to add extra appeal to the user as I wanted to s
 
 ## Manual Testing
 
-### Language Validation 
+### Language Validation
 
-### Testing User Stories.
+- I used W3C validator to validate both my HTML and CSS codes:
+HTML
+<img src="assets/readme_files/html-validator1.png" alt="view of html code being validated">
+<img src="assets/readme_files/html-validator2.png" alt="view of html code being validated">
+Both images represent before and after I had validated and improved my code.
+
+CSS
+<img src="assets/readme_files/CSS-validator.png" alt="view of css code being validated">
+
+- I sed JSHint to validate my Javascript code
+Javascript
+<img src="assets/readme_files/JSHint.png" alt="view of javascript code being validated">
+
+### Performance Testing
+
+- I ran my site through Lighthouse which is a chrome developer tool to check the performance of mt site.
+<img src="assets/readme_files/Lighthouse.png" alt="view of lighthouse performance results">
+
+### Testing User Stories
 
 - I want to be able to play BOOTCAMP from start to finish.
 Bootcamp is a very simplistic game to play as it only requires users to click buttons on a desktop or to tap on tablets or mobile devices to advance into the game. The game is very straightforward and the user will never at any point be confused at what stage they are at.
@@ -136,18 +158,21 @@ At the end of every set of questions, the user will see how many questions they 
 - I want to be able to unlock harder difficulties once I have completed the previous diffulty.
 Difficulties that are locked will be identified through a specific colour way and once they have been completed will be highlighted in another colourway.
 
-### Other Testing 
+### Testing Site Features
+<img src="assets/readme_files/testingfeatures.png" alt="image of manual tesiing features">
+### Other Testing
 
 Browser testing was done on the folowing devices:
 
 - Apple Mac
 - MacBook Pro
+- Iphone 14 pro max
 
 Browser testing was done on the following browsers:
 
 - Google Chrome
 - Safari
-- Microsoft Edge !
+- Microsoft Edge
 
 ## Bugs
 
@@ -157,15 +182,15 @@ Browser testing was done on the following browsers:
 
 ### Code Used
 
-* GreatStack - Youtube: Similiar project to mine so helped me navigate through the game functionality.
+- GreatStack: Youtube Similiar project to mine so helped me navigate through the game functionality.
+- All other code was created by developer Jeremy Amoako
 
 ### Content
 
-* ChatGPT: Used to generate questions.
-* Midjourney: Used to create game images.
+- ChatGPT: Used to generate questions.
+- Midjourney: Used to create game images.
 
 ### Acknowledgements
 
-Iris Smok - Cohort Facilitator, always somebody who is willing to help.
-Family and Friends - Constant support and push to get my work done.
-
+Iris Smok - Cohort Facilitator, always somebody who is willing to help
+Family and Friends - Constant support and push to get my work done
