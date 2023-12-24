@@ -1,5 +1,7 @@
 # Bootcamp
 
+[View live project here](https://github.com/JeyAsare/bootcamp.git)
+
 #### For my Milestone 2 Project I have created an interactive quiz game using HTMl, CSS and Javascript
 
 ## User Experience
