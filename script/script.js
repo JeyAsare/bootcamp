@@ -664,6 +664,7 @@ let currentQuestionIndex = 0;
 let currentDifficultyLevel = null;
 let score = 0;
 
+/* changePage function allows user to go through each page of game */
 function changePage(pageId) {
     let page = document.getElementById(pageId);
     let pages = document.getElementsByClassName("gameplay");
@@ -674,6 +675,7 @@ function changePage(pageId) {
     page.classList.add("active");
 }
 
+/* setDifficultyLevel shows each level of difficulty user has to go through */ 
 function setDifficultyLevel() {
     let difView = "";
 
@@ -689,7 +691,7 @@ function setDifficultyLevel() {
     }
     document.getElementById("difficulty-lvls").innerHTML = difView;
 }
-
+/* showQuestion function gives the user a question and a choice of four answers */
 function showQuestion(questionIndex, difficultyLevelName) {
     changePage("page-3");
     document.getElementById("next-btn").classList.remove("active");
@@ -719,6 +721,7 @@ function showQuestion(questionIndex, difficultyLevelName) {
     currentDifficultyLevel = difficultyLevelName;
 }
 
+/* checkAnswer function checks if the user selected the right answer */
 function checkAnswer(questionIndex, difficultyLevelName, answerIndex) {
     let questions = [];
     for (let i = 0; i < bootcampQuiz.difficultyLevels.length; i++) {
@@ -735,6 +738,7 @@ function checkAnswer(questionIndex, difficultyLevelName, answerIndex) {
     return answerSelected.correct;
 }
 
+/* selectAnswer function highlights the answer the user chooses */
 function selectAnswer(questionIndex, difficultyLevelName, answerIndex) {
     let answerButtons = document.getElementsByClassName("answer-btns");
 
@@ -774,6 +778,7 @@ function selectAnswer(questionIndex, difficultyLevelName, answerIndex) {
     document.getElementById("next-btn").classList.add("active");
 }
 
+/* nextQuestion function uses a button to move the user onto the next question */
 function nextQuestion() {
     let questions = [];
     let passMessage = '';
@@ -808,6 +813,7 @@ function nextQuestion() {
 
 }
 
+/* playAgain function allows the user to play game again from the start */
 function playAgain() {
     currentQuestionIndex = 0;
     currentDifficultyLevel = null;
@@ -817,6 +823,7 @@ function playAgain() {
     setDifficultyLevel();
 }
 
+/* unlockNextLevel function allows the user to unlock a next difficulty after completing the previous */
 function unlockNextLevel() {
 
     for (let i = 0; i < bootcampQuiz.difficultyLevels.length; i++) {
