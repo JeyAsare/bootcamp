@@ -1,12 +1,12 @@
-# BOOTCAMP
+# Bootcamp
 
-#### For my Milestone 2 Project I have created an interactuve quiz game using HTMl, CSS and Javascript
+#### For my Milestone 2 Project I have created an interactive quiz game using HTMl, CSS and Javascript
 
 ## User Experience
 
 ### Aims
 
-This current project BOOTCAMP in Web Application Development, tested my knowledge and ability to use javascript to create an interactive browser page for users. BOOTCAMP is a trivial quiz game that can be played by anyone who has an interest in general knowledge and the game was styled to fit a gameplay of a millitary camp.
+This current project Bootcamp in Web Application Development, tested my knowledge and ability to use javascript to create an interactive browser page for users. BOOTCAMP is a trivial quiz game that can be played by anyone who has an interest in general knowledge and the game was styled to fit a gameplay of a millitary camp.
 
 ### User Goals
 
@@ -28,7 +28,7 @@ This current project BOOTCAMP in Web Application Development, tested my knowledg
 
 ## Project Scope
 
-To create a simple yet effective game, I decided that only one main HTML page was needed for the user. This HTML page consisted of a "game-title" which was a "div" element containing the title of the game and a picture logo.
+To create a simple yet effective game, I decided that only one main HTML page was needed for the user. This HTML page consisted of a game-title containing the title of the game and a picture logo.
 
 I then split my HTML into four different sections that the user will see as they progressed into the game:
 
@@ -38,11 +38,11 @@ I then split my HTML into four different sections that the user will see as they
 
 #### 2
 
-- This section is the difficulty section where the user clicks on the specified difficulty to start the quix.
+- This section is the difficulty section where the user clicks on the specified difficulty to start the quiz.
 
 #### 3
 
-- This section is the quiz section where the user will be tested on their general knowledge. There are 10 questions in total.
+- This section is the quiz where the user will be tested on their general knowledge. There are 10 questions in total.
 
 #### 4
 
@@ -65,7 +65,7 @@ Mobile Versrion:
 
 ### Typography
 
-I primarily and only used Bebas Neue as my font-family in the game meaning all text being written is from this font. I also used Sans Serif incase my primary font did not load on the page for any given reason.
+I primarily and only used Bebas Neue as my font-family in the game that meant that all text being written is from this font. I also used Sans Serif incase my primary font did not load on the page for any given reason.
 
 ### Colors/Colours
 
@@ -79,8 +79,8 @@ I primarily and only used Bebas Neue as my font-family in the game meaning all t
 - gold
 - red
 
-Whilst planning this game I wanted my colour theme to essentially revolve around the colours brown, green, grey and black to set the scene of an actual military bootcamp. I used the bright green as I believed it to be a very good contrast compared to the nature of the over dark colours.
-The othe colours used are there to add extra appeal to the user as I wanted to still give the user the gaming experience.
+Whilst planning this game I wanted my colour theme to essentially revolve around the colours brown, green, grey and black to set the scene of an actual military bootcamp. I used the bright green as I believed it to be a very good contrast compared to the nature of the other dark colours.
+The other colours used were to add extra appeal to the user as I wanted to still give the user the gaming experience.
 
 ## Game Features
 
@@ -100,8 +100,8 @@ The othe colours used are there to add extra appeal to the user as I wanted to s
 - Increasing the number of difficulties in the game as currently I only have 3.
 - Whilst developing the project I thought to implement a quit game option which would take users to that start of the game instead of them having to constantly refresh the game.
 - Also, whilst developing the project I found out that generating questions was a time consuming aspect and that my game could be limited to how many sets of questions I have. Maybe for future development I can find a way to import already generated questions and answers into my game to keep the longevity of my game for users.
-- My game has a character Colonel Brad is present for the entirety of the game and maybe I in the future I could add a voice to bring him more to life for the user.
-- Apart from unlocking a next level, the user doesn't receieve other reward or satisfaction from BOOTCAMP. Next time I could add a section where the user could attain achievements from Colonel Brad for their progress.
+- My game has a character Colonel Brad who is present for the entirety of the game and maybe I in the future I could add a voice to bring him more to life for the user.
+- Apart from unlocking a next level, the user doesn't receieve other rewards or satisfaction from BOOTCAMP. Next time I could add a section where the user could attain achievements from Colonel Brad for their progress.
 
 ## Technologies Used
 
@@ -161,7 +161,7 @@ Javascript
 ### Testing User Stories
 
 - I want to be able to play BOOTCAMP from start to finish.
-Bootcamp is a very simplistic game to play as it only requires users to click buttons on a desktop or to tap on tablets or mobile devices to advance into the game. The game is very straightforward and the user will never at any point be confused at what stage they are at.
+Bootcamp is a very simplistic game to play as it only requires users to click buttons on a desktop or to tap on tablets or mobile devices to advance in the game. The game is very straightforward and the user will never at any point be confused at what stage they are at.
 
 - I want to be able to see my score at the end of every question.
 At the end of every set of questions, the user will see how many questions they got right. It will be met with either a congratualtions message telling them they have passed or a failure message if they have failed.
@@ -170,7 +170,9 @@ At the end of every set of questions, the user will see how many questions they 
 Difficulties that are locked will be identified through a specific colour way and once they have been completed will be highlighted in another colourway.
 
 ### Testing Site Features
+
 <img src="assets/readme_files/testingfeatures.png" alt="image of manual tesiing features">
+
 ### Other Testing
 
 Browser testing was done on the folowing devices:
