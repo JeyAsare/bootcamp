@@ -1,5 +1,7 @@
 # Bootcamp
 
+[Visit project here](https://jeyasare.github.io/bootcamp/)
+
 #### For my Milestone 2 Project I have created an interactive quiz game using HTMl, CSS and Javascript
 
 ## User Experience
@@ -32,34 +34,29 @@ To create a simple yet effective game, I decided that only one main HTML page wa
 
 I then split my HTML into four different sections that the user will see as they progressed into the game:
 
-#### 1
+1. This is the start of the game where the user receives an introuctory message from the colonel of the game and also a start button which takes the user onto the next page.
 
-- This is the start of the game where the user receives an introuctory message from the colonel of the game and also a start button which takes the user onto the next page.
+2. This section is the difficulty section where the user clicks on the specified difficulty to start the quiz.
 
-#### 2
+3. This section is the quiz where the user will be tested on their general knowledge. There are 10 questions in total.
 
-- This section is the difficulty section where the user clicks on the specified difficulty to start the quiz.
-
-#### 3
-
-- This section is the quiz where the user will be tested on their general knowledge. There are 10 questions in total.
-
-#### 4
-
-- This section shows the user their score. If the user gets above a certain threshold then they pass and move onto the next level however if the user fails they will be redirected to restart the questions again at the same difficulty.
+4. This section shows the user their score. If the user gets above a certain threshold then they pass and move onto the next level however if the user fails they will be redirected to restart the questions again at the same difficulty.
 
 ## Wireframes
 
 ### I used Balsamiq Wireframes to create the basic structure of my game
 
-Desktop Version:
+<details><summary>Desktop Version:</summary>
 <img src="assets/readme_files/desktop-view.png" alt="wireframe desktop view">
+</details>
 
-IPAD Version:
+<details><summary>IPAD Version:</summary>
 <img src="assets/readme_files/ipad-view.png" alt="wireframe ipad view">
+</details>
 
-Mobile Versrion:
+<details><summary>Mobile Versrion:</summary>
 <img src="assets/readme_files/mobile-view.png" alt="wireframe mobile view">
+</details>
 
 ## Design
 
@@ -84,14 +81,20 @@ The other colours used were to add extra appeal to the user as I wanted to still
 
 ## Game Features
 
-- Page 1
-<img src="assets/readme_files/section1.png" alt="view of first section of site">
-- Page 2
+<details><summary>Page 1<img src="assets/readme_files/section1.png" alt="view of first section of site"></summary>
+</details>
+
+<details><summary>Page 2</summary>
 <img src="assets/readme_files/section2.png" alt="view of second section of site">
-- Page 3
-  <img src="assets/readme_files/section3.png" alt="view of third section of site">
-- Page 4
-  <img src="assets/readme_files/section4.png" alt="view of fourth section of site">
+</details>
+
+<details><summary>Page 3</summary>
+<img src="assets/readme_files/section3.png" alt="view of third section of site">
+</details>
+
+<details><summary>Page 4</summary>
+<img src="assets/readme_files/section4.png" alt="view of fourth section of site">
+</details>
 
 ## Future Implementations
 
@@ -141,22 +144,28 @@ Github Pages was used to deploy the live website:
 ### Language Validation
 
 - I used W3C validator to validate both my HTML and CSS codes:
-HTML
+
+<details><summary>HTML</summary>
 <img src="assets/readme_files/html-validator1.png" alt="view of html code being validated">
 <img src="assets/readme_files/html-validator2.png" alt="view of html code being validated">
+</details>
 Both images represent before and after I had validated and improved my code.
 
-CSS
+<details><summary>CSS</summary>
 <img src="assets/readme_files/CSS-validator.png" alt="view of css code being validated">
+</details>
 
 - I sed JSHint to validate my Javascript code
-Javascript
+
+<details><summary>Javascript</summary>
 <img src="assets/readme_files/JSHint.png" alt="view of javascript code being validated">
+</details>
 
 ### Performance Testing
 
 - I ran my site through Lighthouse which is a chrome developer tool to check the performance of mt site.
-<img src="assets/readme_files/Lighthouse.png" alt="view of lighthouse performance results">
+<details><summary><img src="assets/readme_files/Lighthouse.png" alt="view of lighthouse performance results"></summary>
+</details>
 
 ### Testing User Stories
 
@@ -171,7 +180,8 @@ Difficulties that are locked will be identified through a specific colour way an
 
 ### Testing Site Features
 
-<img src="assets/readme_files/testingfeatures.png" alt="image of manual tesiing features">
+<details><summary>Manual Testing Features</summary><img src="assets/readme_files/testingfeatures.png" alt="image of manual tesiing features">
+</details>
 
 ### Other Testing
 
@@ -196,6 +206,7 @@ Browser testing was done on the following browsers:
 ### Code Used
 
 - GreatStack: Youtube Similiar project to mine so helped me navigate through the game functionality.
+- Sunmeet Singh my friend helped me write the getRandomQuestion function to help better my project.
 - All other code was created by developer Jeremy Amoako
 
 ### Content
