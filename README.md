@@ -81,7 +81,8 @@ The other colours used were to add extra appeal to the user as I wanted to still
 
 ## Game Features
 
-<details><summary>Page 1<img src="assets/readme_files/section1.png" alt="view of first section of site"></summary>
+<details><summary>Page 1</summary>
+<img src="assets/readme_files/section1.png" alt="view of first section of site">
 </details>
 
 <details><summary>Page 2</summary>
@@ -136,7 +137,7 @@ Github Pages was used to deploy the live website:
 6. Select Root from the drop donn selct folder menu.
 7. Click Save.
 8. Your live Github Pages site has now been deployed.
-   
+
 # Testing
 
 ## Manual Testing
@@ -164,7 +165,9 @@ Both images represent before and after I had validated and improved my code.
 ### Performance Testing
 
 - I ran my site through Lighthouse which is a chrome developer tool to check the performance of mt site.
-<details><summary><img src="assets/readme_files/Lighthouse.png" alt="view of lighthouse performance results"></summary>
+
+<details><summary>Lighthouse Testing</summary>
+<img src="assets/readme_files/Lighthouse.png" alt="view of lighthouse performance results">
 </details>
 
 ### Testing User Stories
@@ -180,7 +183,8 @@ Difficulties that are locked will be identified through a specific colour way an
 
 ### Testing Site Features
 
-<details><summary>Manual Testing Features</summary><img src="assets/readme_files/testingfeatures.png" alt="image of manual tesiing features">
+<details><summary>Manual Testing Features</summary>
+<img src="assets/readme_files/testingfeatures.png" alt="image of manual tesiing features">
 </details>
 
 ### Other Testing
@@ -216,5 +220,5 @@ Browser testing was done on the following browsers:
 
 ### Acknowledgements
 
-Iris Smok - Cohort Facilitator, always somebody who is willing to help
-Family and Friends - Constant support and push to get my work done
+- Iris Smok - Cohort Facilitator, always somebody who is willing to help
+- Family and Friends - Constant support and push to get my work done
